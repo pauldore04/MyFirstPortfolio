@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: blue;
+    font-style: italic;
+    background-color: crimson;
+    height: 50px;
+    font-size: xxx-large;
+    border: 5px solid rebeccapurple;
+}
+.header2{
+    color: chartreuse;
+}
+#id1{
+    color: cadetblue;
+    font-style: italic;
+    font-size: xxx-large;
+    background-image: image("testimg.jpeg");
+    margin: 100px 50px 100px 50px;
+    padding-left: 100px;
+    border-radius: 50%;
+}
+p:hover{
+    color: crimson;
+    background-color: blue;
+    border: white;
+}
+#id2{
+    text-align: center;
+}
+#id2:hover{
+    color: rebeccapurple;
+}
