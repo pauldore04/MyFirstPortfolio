@@ -2,15 +2,19 @@
     padding: 0px;
     margin: 0px;
     background-color: black;
+    color: white;
 }
 
 
 
 #header{
     padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     text-align: center;
     font-style: oblique;
+    position: sticky;
+    top: 20px;
 }
 #header2{
     color: white;
@@ -25,4 +29,8 @@
 }
 .img1:hover{
     opacity: 0.5;
+}
+#testText{
+    color: white;
+    border-right: 40px;
 }
