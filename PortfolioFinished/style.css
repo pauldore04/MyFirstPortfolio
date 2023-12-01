@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+#header{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+#header2{
+    color: white;
+    padding-top: 100px;
+    font-style: italic;
+    text-align: center;
+    font-size: 200px;
+}
+.img1{
+    padding-left: 250px;
+    opacity: 1;
+}
+.img1:hover{
+    opacity: 0.5;
+}
