@@ -1,27 +1,59 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-    color: white;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: "Helvetica Neue", serif;
 }
 
 
+.top-nav {
+    background-color: white;
+    overflow: hidden;
+    font-family: "Helvetica Neue", serif;
+    position: fixed;
+}
 
-#header{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
+/* Style the links inside the navigation bar */
+.top-nav a {
+    font-size: 15px;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+    color: black;
+    display: inline-block;
     text-align: center;
-    font-style: oblique;
     position: sticky;
-    top: 20px;
+    top: 0;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+
 }
-#header2{
-    color: white;
-    padding-top: 100px;
-    font-style: italic;
-    text-align: center;
-    font-size: 200px;
+
+/* Change the color of links on hover */
+.top-nav a:hover {
+    background-color: darkgray;
+    color: black;
+    position: sticky;
+}
+.top-nav{
+    display: flex;
+}
+.header_right{
+    margin-right: 1321px;
+}
+
+/* Add a color to the active/current link */
+.top-bar-not-name{
+    background-color: white;
+    left: 150px;
+
+}
+.top-nav a.active{
+    background-color: white;
+    color: black;
+    position: sticky;
 }
 .img1{
     padding-left: 250px;
@@ -29,8 +61,4 @@
 }
 .img1:hover{
     opacity: 0.5;
-}
-#testText{
-    color: white;
-    border-right: 40px;
 }

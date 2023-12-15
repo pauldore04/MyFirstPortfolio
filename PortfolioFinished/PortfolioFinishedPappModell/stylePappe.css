@@ -2,6 +2,15 @@
     background-color: black;
     color: white;
 }
+#header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    position: sticky;
+    top: 0px;
+}
 .uberschrift{
     text-align: center;
     font-size: 50px;
