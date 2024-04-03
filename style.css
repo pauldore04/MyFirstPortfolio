@@ -1,3 +1,129 @@
-.links{
-    display: grid;
+* {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: "Helvetica Neue", sans-serif ;
+}
+
+.top-nav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.top-nav a {
+    font-size: 15px;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    word-spacing: 0;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.top-nav a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.top-bar-not-name {
+    background-color: white;
+    line-height: 50px;
+}
+
+.top-nav a.active {
+    background-color: white;
+    color: black;
+}
+
+.first-project {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-project {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    width: 70%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    max-height: 900px;
+    height: auto;
+}
+
+.project-description {
+    padding: 20px;
+}
+
+.project-description h2 {
+    margin-bottom: 10px;
+}
+
+.project-description p {
+    margin-bottom: 20px;
+}
+
+.project-description a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 20px;
+    flex: 1;
+    max-width: 24.99999%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        max-width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        max-width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
